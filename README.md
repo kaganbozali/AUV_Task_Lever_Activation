@@ -99,13 +99,17 @@ blind underwater. In this study AUV find its way using colour detection however 
 come with consistent results and it could effect the grabbing part.
 There are some issues that it is hard to perform without sensor and some of the problems that can be
 easily solved with sensors which:
+
 • The problem that arises from the method used to approach for grabbing can be easily solved
 with a distance sensor.
+
 • In the case where we have stated that the grabbing task is the most complex task, an extra
 alarm in the grabber will always appear when it touches the lever, which will facilitate this
 part.
+
 • Also when we use different controllers for different degrees of freedom it can causes
 unwanted motions. So in order to solve this problem, more complex controller has to use to
 avoid unwanted motions.
+
 To reach a conclusion in general, the definitions given in the task were concluded successfully,
 albeit in a fragmented way.
