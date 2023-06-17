@@ -18,6 +18,7 @@ P=K p∗Error                                                                   
 After the calculation of the P function, the proportional controller ensures that the vehicle reaches
 the desired value when needed, and it returns when the desired value is exceeded, and it does this in
 an infinite loop.
+
 **1.2 Colour Detection**
 
 Detection of colour is defined in range for this simulation. To explain it simply, an equation in the
@@ -45,11 +46,13 @@ one by one however both of the controllers are operating until the end of the si
 example initial and last position of the AUV has shown in Figure-1.
 
 ![image](https://github.com/kaganbozali/AUV_Task_Lever_Activation/assets/104154215/68e94dea-9987-4469-ae3f-8b1f2e8214e1)
+
 **Figure 1.** Depth Adjustment
 
 and the output of the depth controller is given in the Figure 2.
 
 ![image](https://github.com/kaganbozali/AUV_Task_Lever_Activation/assets/104154215/69de10ac-7a04-46e9-bde0-72a9a6a2c40e)
+
 **Figure 2.** Output
 
 **2.3 Approaching**
@@ -61,9 +64,11 @@ is no sensor that express that vehicle reached to destination so determination o
 crucial role.
 
 ![image](https://github.com/kaganbozali/AUV_Task_Lever_Activation/assets/104154215/6b4c649a-35f7-480a-ab71-a0948fd59144)
+
 **Figure 3.** Camera View of AUV in Approaching Task
 
 ![image](https://github.com/kaganbozali/AUV_Task_Lever_Activation/assets/104154215/f4ef6364-6997-4e49-bd7d-d8fd177829df)
+
 **Figure 4.** Output of the Approach Task
 
 **2.4 Grabbing and Activation of Lever**
@@ -76,6 +81,7 @@ the lever and then, it closes the grabber and first it pushes to lever then pull
 activation of the green lever has shown.
 
 ![image](https://github.com/kaganbozali/AUV_Task_Lever_Activation/assets/104154215/4637f37e-207e-444f-83d6-037f82fcdaa1)
+
 **Figure 5.** Grabbing and Activation of Lever
 
 **Conclusion**
