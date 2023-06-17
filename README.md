@@ -13,8 +13,11 @@ lever, it also has the adjust lateral position and depth according to position o
 
 The necessary processes to write a simple proportional control were first continued by calculating
 the error value and calculating the P function using the calculated error value according to Eq-1,2.
+
 Error=Dobtained −D reel                                                                         (Eq-1)
+
 P=K p∗Error                                                                                     (Eq-2)
+
 After the calculation of the P function, the proportional controller ensures that the vehicle reaches
 the desired value when needed, and it returns when the desired value is exceeded, and it does this in
 an infinite loop.
@@ -25,7 +28,9 @@ Detection of colour is defined in range for this simulation. To explain it simpl
 form of a first-order Eq-3 calculates the initial condition and the condition it reaches, and provides
 the calculation of coefficients A and B. The y value given in this equation is the speed and the x
 value is the radius value of the colour values read.
+
 Y = A+ BX                                                                                      (Eq-3)
+
 After the initial and final calculations are made, the values in between are calculated at each step
 during the simulation and the vehicle is allowed to move. Also it has to be mentioned that X values
 are mean values of the lever’s radius.
@@ -56,6 +61,7 @@ and the output of the depth controller is given in the Figure 2.
 **Figure 2.** Output
 
 **2.3 Approaching**
+
 Approaching performs according the radius values of the lever. There are one lower and one upper
 limit for radius and speed values which lower radius value corresponds to maximum speed while
 higher corresponds to minimum. Simulation is calculating that speed values every time inside the
