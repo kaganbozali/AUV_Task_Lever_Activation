@@ -1,12 +1,12 @@
 # AUV_Task_Lever_Activation
 
-The aim of the study is approaching the lever while adjusting the lateral and vertical bosition at the same time using controller.
 **Introduction**
 
 The aim of this study is to detect the lever in the simulation environment of the AUV with the help
 of a camera and to separate the colors in the lever and to activate the lever that approaches the lever
 according to the user information by using the separated colors. While the AUV approaching the
 lever, it also has the adjust lateral position and depth according to position of levers.
+
 **1. Methodology**
 
 **1.1 Proportional Control**
@@ -28,13 +28,17 @@ Y = A+ BX                                                                       
 After the initial and final calculations are made, the values in between are calculated at each step
 during the simulation and the vehicle is allowed to move. Also it has to be mentioned that X values
 are mean values of the lever’s radius.
+
 **2. Simulation**
+
 According to chosen strategy, first AUV has to ensure its lateral using position according to lever
 position using PI controller, then same like lateral position it has to adjust its depth also with the
 help of the controller. Then AUV will reach the somewhere around the lever using colour detection.
 It basically detect the lever and calculate the radius of the user desired colour. Lastly, it grabs the
 lever and activates with two different actions.
+
 **2.1 Adjusting Lateral Position and Depth**
+
 Adjusting lateral position and depth has performed with using controllers. Practically, lateral
 position adjustment performed first and then depth adjustment comes. These two processes happens
 one by one however both of the controllers are operating until the end of the simulation. For
@@ -63,6 +67,7 @@ crucial role.
 **Figure 4.** Output of the Approach Task
 
 **2.4 Grabbing and Activation of Lever**
+
 Grabbing and activation is relatively harder task to perform when we compare to other tasks. The
 reason for that approaching part performs using colour detection and detecting the radius values of
 the colours could vary with lots of factors. However simulation is capable to do it as you see
