@@ -2,12 +2,15 @@
 
 The aim of the study is approaching the lever while adjusting the lateral and vertical bosition at the same time using controller.
 **Introduction**
+
 The aim of this study is to detect the lever in the simulation environment of the AUV with the help
 of a camera and to separate the colors in the lever and to activate the lever that approaches the lever
 according to the user information by using the separated colors. While the AUV approaching the
 lever, it also has the adjust lateral position and depth according to position of levers.
 **1. Methodology**
+
 **1.1 Proportional Control**
+
 The necessary processes to write a simple proportional control were first continued by calculating
 the error value and calculating the P function using the calculated error value according to Eq-1,2.
 Error=Dobtained −D reel                                                                         (Eq-1)
@@ -16,6 +19,7 @@ After the calculation of the P function, the proportional controller ensures tha
 the desired value when needed, and it returns when the desired value is exceeded, and it does this in
 an infinite loop.
 **1.2 Colour Detection**
+
 Detection of colour is defined in range for this simulation. To explain it simply, an equation in the
 form of a first-order Eq-3 calculates the initial condition and the condition it reaches, and provides
 the calculation of coefficients A and B. The y value given in this equation is the speed and the x
